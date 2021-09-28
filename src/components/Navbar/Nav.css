@@ -1,45 +1,44 @@
 .container {
-    background-color: #0076ce;
-    color: white;
-    width: 100vw;
-    height: 3.75rem;
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
+ background-color: #0076ce;
+ height: 3.75rem;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
 }
 
-.logo {
-    padding-left: 15rem;
+.container-two {
+    width: 55vw;
+    display: flex;
+    justify-content: space-between;
 }
 
-.input {
-    height: 2.5rem;
-    width: 60vw;
+.inputt {
+    height: 2rem;
+    width: 40vw;
+    margin-top: 0.5rem;
     outline: none;
-    border: none;
-}
-
-.input::placeholder {
-    padding-left: 1rem;
 }
 
 .search {
-    background-color: #0076ce;
-    height: 2.4rem;
-    width: 10vw;
-    color: white;
-    z-index: 1;
     position: absolute;
-    margin-left: 71.8rem;
-    font-size: 1rem;
+    height: 1.9rem;
+    width: 8rem;
+    background-color: #006bbd;
+    z-index: 1;
+    margin-left: 38.5rem;
+    margin-top: 0.8rem;
+    color: white;
     outline: none;
     border: none;
 }
 
 .search-icon {
-    z-index: 1;
     position: absolute;
-    margin-left: 33rem;
+    z-index: 1;
+    margin-left: 39.3rem;
+    margin-top: 1rem;
 }
 
 .second-nav {
@@ -52,7 +51,33 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 17rem;
+    padding-left: 19rem;
     width: 10rem;  
     padding-top: 0.2rem;
 }
+
+.home-two {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    padding-left: 19rem;
+    font-size: 1.2rem;
+    justify-content: space-around;
+    width: 30rem;
+}
+
+.form-control {
+    height: 2.5rem;
+    width: 70vw;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    border-radius: none;
+    margin-left: 19rem;
+}
+
+
+
+
+
